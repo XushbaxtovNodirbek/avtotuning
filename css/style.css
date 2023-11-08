@@ -221,6 +221,10 @@ section{
     border-radius:15px;
     justify-content: center;
     cursor: pointer;
+    transition: transform .3s ease;
+}
+.contact .content .card:hover  i{
+    transform: translateY(-10px);
 }
 .contact .content .card i{
     font-size: 100px;
