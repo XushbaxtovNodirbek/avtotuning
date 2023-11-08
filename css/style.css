@@ -324,11 +324,24 @@ footer{
     .shop .content .card{
         width: 45%;
     }
+    .shop .content .card .price{
+        font-size: 18px;
+    }
+    .shop .content .card .btn{
+        font-size: 18px;
+        padding: 5px;
+    }
     .contact .content .card{
         width: 45%;
     }
     .contact .content .card i{
         font-size: 60px;
+    }
+    .contact .content .card h3{
+        font-size: 17px;
+    }
+    .contact .content .card span{
+        font-size: 15px;
     }
     
 }
@@ -336,13 +349,21 @@ footer{
     section{
         padding: 20px;
     }
+    .main h2 {
+        font-size: 26px;
+    }
+    .section-title{
+        font-size: 20px;
+    }
     .gallery .content .card{
         width: 90%;
     }
     .shop .content .card{
+        min-height:250px;
         width: 90%;
     }
     .contact .content .card{
+        height: 200px;
         width: 90%;
     }
 }
